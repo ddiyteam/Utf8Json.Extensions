@@ -25,9 +25,7 @@ Install-Package Utf8Json.Extensions
 
 ```csharp
 var obj = new SimpleObject() { Id = Guid.NewGuid(), Name = "TestObject" };
-
-var resolver = CompositeResolver.Create(EnumCaseIgnoreResolver.Default, StandardResolver.Default);
-
+var resolver = CompositeResolver.Create(EnumCaseIgnoreResolver.Default, tandardResolver.Default);
 var result = JsonSerializer.ToJsonString(obj, resolver);
 ```
 
