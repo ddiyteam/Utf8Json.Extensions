@@ -8,6 +8,7 @@
     <Authors>ddiyteam</Authors>
     <PackageProjectUrl>https://github.com/ddiyteam/Utf8Json.Extensions</PackageProjectUrl>
     <RepositoryUrl>https://github.com/ddiyteam/Utf8Json.Extensions</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
